@@ -18,7 +18,7 @@ app.use(rateLimiter);
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://litenotes.netlify.app'
+  'https://litenotes-backend.onrender.com'
 ];
 
 const corsOptions = {
