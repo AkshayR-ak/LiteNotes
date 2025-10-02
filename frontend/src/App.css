@@ -1,0 +1,14 @@
+.app-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.background-gradient {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(125% 125% at 50% 10%, #000 60%, #00FF9D40 100%);
+}

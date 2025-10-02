@@ -1,0 +1,32 @@
+.homepage {
+  min-height: 100vh;
+}
+
+.notes-container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.loading-text {
+  text-align: center;
+  color: var(--primary-color);
+  padding: 2.5rem 0;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .notes-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .notes-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
