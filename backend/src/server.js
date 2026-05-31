@@ -16,7 +16,7 @@ app.use(express.json()); //to parse values of body to json
 const allowedOrigins = [
   'http://localhost:3000',
   'https://litenotes-backend.onrender.com',
-  'https://lite-notes-2j5b.vercel.app/'
+  'https://lite-notes-2j5b.vercel.app/api'
 ];
 
 const corsOptions = {
