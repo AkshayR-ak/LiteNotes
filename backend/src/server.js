@@ -15,7 +15,7 @@ app.use(express.json()); //to parse values of body to json
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://lite-notes-2j5b.vercel.app/'
+  'https://lite-notes-2j5b.vercel.app'
 ];
 
 const corsOptions = {
